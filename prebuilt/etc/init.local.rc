@@ -1,4 +1,4 @@
-# Omni Extras
+# Mantoui Extras From Omni
 
 on init
     export TERMINFO /system/etc/terminfo

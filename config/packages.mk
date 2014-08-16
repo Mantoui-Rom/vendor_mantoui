@@ -3,9 +3,7 @@ PRODUCT_PACKAGES += \
     Basic \
     Development \
     LatinIME \
-    SoundRecorder \
-    VideoEditor \
-    VoiceDialer
+    SoundRecorder
 
 # Additional apps
 PRODUCT_PACKAGES += \

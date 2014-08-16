@@ -16,6 +16,10 @@ PRODUCT_PACKAGES += \
     OmniSwitch \
     OmniTorch
 
+# SuperSu
+PRODUCT_PACKAGES += \
+    SuperSu
+
 PRODUCT_PACKAGES += \
     CellBroadcastReceiver
 

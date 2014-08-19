@@ -3,7 +3,8 @@ PRODUCT_PACKAGES += \
     Basic \
     Development \
     LatinIME \
-    SoundRecorder
+    SoundRecorder \
+    LockClock
 
 # Additional apps
 PRODUCT_PACKAGES += \

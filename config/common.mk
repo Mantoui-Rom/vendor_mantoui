@@ -24,6 +24,14 @@ ifneq ($(TARGET_BUILD_VARIANT),eng)
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
 endif
 
+# ROM Statistics and ROM Identification
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.romstats.url=http://stats.mantoui.com/ \
+    ro.romstats.name=Mantoui \
+    ro.romstats.version=1.0.0 \
+    ro.romstats.askfirst=0 \
+    ro.romstats.tframe=1
+
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/mantoui/prebuilt/bin/backuptool.sh:system/bin/backuptool.sh \

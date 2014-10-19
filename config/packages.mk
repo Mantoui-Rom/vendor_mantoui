@@ -14,7 +14,8 @@ PRODUCT_PACKAGES += \
     MonthCalendarWidget \
     OpenDelta \
     OmniSwitch \
-    OmniTorch
+    OmniTorch \
+    MantouiStats
 
 # SuperSu
 PRODUCT_PACKAGES += \
